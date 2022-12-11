@@ -118,8 +118,12 @@ public class Main {
             ArrayList<String> prices = new ArrayList<>();
             ArrayList<String> amounts = new ArrayList<>();
 
-       fillArrays("urls", urls, names, prices, amounts);
+       //fillArrays("urls", urls, names, prices, amounts);
 
+
+            System.out.println(getAmountFromURL("https://getir.com/urun/oba-ince-kesme-makarna-500-gr-sx3lscy9e0/"));
+            System.out.println(getNameFromURL("https://getir.com/urun/oba-ince-kesme-makarna-500-gr-sx3lscy9e0/"));
+            System.out.println(getPriceFromURL("https://getir.com/urun/oba-ince-kesme-makarna-500-gr-sx3lscy9e0/"));
     
        
 
